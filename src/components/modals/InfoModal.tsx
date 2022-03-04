@@ -11,7 +11,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the word in 7 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word. <br></br><br></br> Names of idolish7 main characters, side characters, kuji characters, mascots, and groups are included.
+        change to show how close your guess was to the word. <br></br><br></br> Names of idolish7 main characters, side characters, mascots, and groups are included.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
