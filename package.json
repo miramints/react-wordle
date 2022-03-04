@@ -29,6 +29,7 @@
     "fix": "prettier --write src",
     "lint": "prettier --check src",
     "start": "react-scripts start",
+    "stop": "sudo killall -9 node",
     "test": "react-scripts test",
     "prepare": "husky install"
   },
